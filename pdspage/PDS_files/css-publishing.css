@@ -1,0 +1,809 @@
+
+/* -------- ~StyleLibrary/en-us/Core Styles/page-layouts-21.css -------- */
+/* _lcid="1033" _version="15.0.4420"
+_LocalBinding */
+div.article,
+div.welcome
+{
+padding:10px 10px;
+}
+.article .article-header
+{
+overflow:hidden;
+zoom:1;
+border-bottom:solid 1px #cccccc;
+font-size:8pt;
+color:#666666;
+}
+.article-header .date-line
+{
+float:left;
+font-weight:bold;
+}
+.article-header .by-line
+{
+text-align:right;
+}
+.article .captioned-image,
+.article .related-links,
+.welcome .welcome-image,
+.welcome .splash-image
+{
+margin-bottom:5px;
+}
+.article-left .captioned-image,
+.welcome .welcome-image
+{
+float:left;
+margin-right:10px;
+}
+.article-right .captioned-image,
+.article .related-links
+{
+float:right;
+margin-left:10px;
+}
+.article .related-links
+{
+border:solid 1px #cccccc;
+min-width:150px;
+width:150px;
+}
+.captioned-image .caption
+{
+font-size:8pt;
+font-family:verdana;
+color:#666666;
+}
+.caption p
+{
+padding-top:2px;
+margin-bottom:2px;
+}
+.article-content,
+.welcome-content
+{
+margin:5px 0 0;
+color:#666666;
+}
+.clearer
+{
+clear:both;
+}
+.col-50
+{
+float:left;
+width:49.9%;
+}
+.col-fluid-1
+{
+float:left;
+width:100%;
+margin-right:-235px;
+}
+.col-fluid-2
+{
+zoom:1;
+margin-right:215px;
+}
+.right-wp-zone-col
+{
+float:right;
+width:215px;
+border-left:1px dashed;
+}
+.edit-mode-border
+{
+border:transparent 1px solid;
+padding:8px;
+margin:1px;
+}
+.ewiki-margin
+{
+padding:0px 0px 0px 11px;
+}
+.ewiki-pagename-align
+{
+vertical-align:middle;
+}
+*:first-child+html .right-wp-zone,
+{
+width:100%;
+}
+.s4-specialNavLinkList
+{
+display:none;
+}
+.ewiki-right-col
+{
+width:198px;
+}
+.ewiki-slink
+{
+margin-left:10px;
+}
+
+/* -------- ~StyleLibrary/en-us/Core Styles/rca.css -------- */
+/* _lcid="1033" _version="15.0.4420"
+_LocalBinding */
+.Normal-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.Normal-H
+{
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.Heading1-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:22pt;
+FONT-FAMILY:arial;
+font-weight:bold;
+}
+.Heading1-H
+{
+FONT-SIZE:22pt;
+FONT-FAMILY:arial;
+font-weight:bold;
+}
+.Heading2-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:20pt;
+FONT-FAMILY:arial;
+font-weight:bold;
+}
+.Heading2-H
+{
+FONT-SIZE:20pt;
+FONT-FAMILY:arial;
+font-weight:bold;
+}
+.Heading3-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:18pt;
+FONT-FAMILY:arial;
+font-weight:bold;
+}
+.Heading3-H
+{
+FONT-SIZE:18pt;
+FONT-FAMILY:arial;
+font-weight:bold;
+}
+.Heading4-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:16pt;
+FONT-FAMILY:arial;
+font-weight:bold;
+}
+.Heading4-H
+{
+FONT-SIZE:16pt;
+FONT-FAMILY:arial;
+font-weight:bold;
+}
+.Heading5-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:14pt;
+FONT-FAMILY:arial;
+font-weight:bold;
+}
+.Heading5-H
+{
+FONT-SIZE:14pt;
+FONT-FAMILY:arial;
+font-weight:bold;
+}
+.Heading6-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:13pt;
+FONT-FAMILY:arial;
+font-weight:bold;
+}
+.Heading6-H
+{
+FONT-SIZE:13pt;
+FONT-FAMILY:arial;
+font-weight:bold;
+}
+.Heading7-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:12pt;
+FONT-FAMILY:arial;
+font-weight:bold;
+}
+.Heading7-H
+{
+FONT-SIZE:12pt;
+FONT-FAMILY:arial;
+font-weight:bold;
+}
+.Heading8-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:11pt;
+FONT-FAMILY:arial;
+font-weight:bold;
+}
+.Heading8-H
+{
+FONT-SIZE:11pt;
+FONT-FAMILY:arial;
+font-weight:bold;
+}
+.Heading9-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:10pt;
+FONT-FAMILY:arial;
+font-weight:bold;
+}
+.Heading9-H
+{
+FONT-SIZE:10pt;
+FONT-FAMILY:arial;
+font-weight:bold;
+}
+.DefaultParagraphFont-H
+{;}
+.TableNormal-T
+{;}
+.TableNormal-R
+{;}
+.TableNormal-C
+{;}
+.Title-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:24pt;
+FONT-FAMILY:arial;
+font-weight:bold;
+text-align:center;
+}
+.Title-H
+{
+FONT-SIZE:24pt;
+FONT-FAMILY:arial;
+font-weight:bold;
+text-align:center;
+}
+.BodyText-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.BodyText-H
+{
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.ListBullet-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.ListBullet-H
+{
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.ListBullet2-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.ListBullet2-H
+{
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.ListBullet3-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.ListBullet3-H
+{
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.List-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.List-H
+{
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.List2-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.List2-H
+{
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.List3-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.List3-H
+{
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.BodyText2-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.BodyText2-H
+{
+FONT-SIZE:9pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.BodyText3-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.BodyText3-H
+{
+FONT-SIZE:8pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.Hyperlink-H
+{color:#0000FF;}
+.TOC1-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.TOC1-H
+{
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.TOC2-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.TOC2-H
+{
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.TOC3-P
+{
+margin:0pt 0pt 0pt 0pt;
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.TOC3-H
+{
+FONT-SIZE:10pt;
+FONT-FAMILY:verdana,arial,helvetica,sans-serif;
+}
+.TableGrid-T
+{;}
+.TableGrid-R
+{;}
+.TableGrid-C
+{;}
+.majorAsciiTheme
+{
+FONT_FAMILY:arial;_LCssFF(RcamajorAsciiThemeFontFamily)
+}
+.majorAnsiTheme
+{
+FONT_FAMILY:arial;_LCssFF(RcamajorAnsiThemeFontFamily)
+}
+.majorEATheme
+{
+FONT_FAMILY:arial;_LCssFF(RcamajorEAThemeFontFamily)
+}
+.majorCSTheme
+{
+FONT_FAMILY:arial;_LCssFF(RcamajorCSThemeFontFamily)
+}
+.minorAsciiTheme
+{
+FONT_FAMILY:verdana;_LCssFF(RcaMinorAsciiThemeFontFamily)
+}
+.minorAnsiTheme
+{
+FONT_FAMILY:verdana;_LCssFF(RcaMinorAnsiThemeFontFamily)
+}
+.minorEATheme
+{
+FONT_FAMILY:verdana;_LCssFF(RcaMinorEAThemeFontFamily)
+}
+.minorCSTheme
+{
+FONT_FAMILY:verdana;_LCssFF(RcaMinorCSThemeFontFamily)
+}
+
+/* -------- ~assets/Publishing/module.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/00_Core.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/10_Branding.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/20_Navigation.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/30_QuickSearch.less -------- */
+/* the search-center link. */
+/* -------- @15…/GridWorksConfig/Branding/40_Publishing.less -------- */
+/* -------- /GridWorksConfig/Branding/90_Psych.less -------- */
+/*f1f1f1;*/
+.gwpub-layout {
+  padding: 0;
+  width: 100%;
+}
+.gwpub-layout td {
+  vertical-align: top;
+}
+.gwpub-article-container {
+  max-width: 1000px;
+}
+.gwpub-edittable,
+.gwpub-edittable .ms-rtestate-field {
+  width: 100%;
+  border-collapse: collapse;
+}
+.gwpub-edittable td {
+  vertical-align: top;
+}
+.gwpub-article-column {
+  vertical-align: top;
+}
+.gwpub-context-column {
+  padding-left: 40px;
+  vertical-align: top;
+  width: 33%;
+}
+/* richtext fields. remove margins, align them with the gwpub-panel */
+
+.ms-formfieldlabelcontainer,
+.ms-formfieldvaluecontainer {
+  margin-left: 0;
+  margin-right: 0;
+}
+/* force richtext border to be only 1px wide */
+
+div.ms-rte-border {
+  border-width: 1px;
+}
+.gwpub-panel {
+  font-size: 12px;
+  /* use no left/right margins, like the richtext fields. like this, they align nicely */
+  margin: 10px 0;
+}
+.gwpub-panel-header {
+  background: url("/Style Library/GridSoft/GridWorks/Core/jqueryui/images/ui-bg_highlight-soft_75_cccccc_1x100.png") repeat-x scroll 50% 50% #cccccc;
+  border: 1px solid #aaaaaa;
+  color: #222222;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 5px;
+}
+.gwpub-panel-header div {
+  background: url('/_layouts/images/menu-right.gif') no-repeat;
+  background-position: 0 3px;
+  padding-left: 12px;
+}
+.gwpub-panel-header div.panel-open {
+  background: url('/_layouts/images/menu2.gif') no-repeat;
+  background-position: -8px 3px;
+  padding-left: 12px;
+}
+.gwpub-panel-content {
+  border: 1px solid #cccccc;
+  border-top: none;
+  padding: 5px;
+}
+.gwpub-panel-content table {
+  border-collapse: collapse;
+}
+.gwpub-panel-content .ms-formlabel,
+.gwpub-panel-content .ms-formbody {
+  /* use some border color than richtext fields */
+  border-top: 1px solid #cccccc;
+}
+/* inherits styles from default h1 pagetitle style */
+
+.gwpub-article-title {
+  font-size: 2.77em;
+  white-space: nowrap;
+}
+.gwpub-article-author > span {
+  margin-left: 0.5ex;
+}
+.gwpub-article-abstract {
+  font-weight: bold;
+  color: #333333;
+  margin: 0 0 10px 0;
+}
+.gwpub-article-image {
+  margin: 0 20px 10px 0;
+  float: left;
+}
+.gwpub-article-content {
+  clear: both;
+  margin: 0 0 10px 0;
+}
+.gwpub-article-meta {
+  padding: 0 0 10px 0;
+  list-style-type: none;
+}
+.gwpub-article-meta li {
+  color: #999999 !important;
+  float: left;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: normal;
+  border-left: 1px solid #cccccc;
+  padding: 0 0 0 10px;
+  margin: 0 10px 0 0;
+}
+.gwpub-article-meta li.first {
+  border-left: none;
+  padding-left: 0;
+}
+.gwpub-article-meta li.last {
+  margin-right: 0;
+}
+.gwpub-article-meta a {
+  color: #999999 !important;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: normal;
+}
+.gwpub-rollupimage {
+  width: 100px;
+}
+/* gray webpart zone title */
+
+.ms-SPZoneTitle {
+  color: #888888;
+}
+/* use same border color for webpart zones than richtext fields */
+
+.ms-SPZone,
+.ms-WPAddButton {
+  border: 1px solid #cccccc;
+}
+.ms-SPZone:hover,
+.ms-WPAddButton:hover {
+  border: 1px solid #aaaaaa;
+}
+.ms-WPAddButton a,
+.ms-WPAddButton a:hover,
+.ms-WPAddButton a:visited {
+  color: #888888;
+}
+.gwpub-webpartzone-quicklaunch {
+  overflow: auto;
+  width: 210px;
+}
+
+/* -------- ~assets/NewsRotator/module.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/00_Core.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/10_Branding.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/20_Navigation.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/30_QuickSearch.less -------- */
+/* the search-center link. */
+/* -------- @15…/GridWorksConfig/Branding/40_Publishing.less -------- */
+/* -------- /GridWorksConfig/Branding/90_Psych.less -------- */
+/*f1f1f1;*/
+.gwpub-Rotated {
+  background: white;
+  border: 0;
+  height: 122px;
+  margin: 10px 0 0 0;
+  overflow: hidden;
+  position: relative;
+  width: 670px;
+}
+.gwpub-Rotated ul {
+  height: 112px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 1000000px!important;
+}
+.gwpub-Rotated li {
+  float: left;
+  height: 122px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 670px;
+}
+.gwpub-Rotated-item {
+  /* resetting styles from controls.css */
+  clear: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.gwpub-Rotated-item img {
+  height: 100px;
+  vertical-align: middle;
+}
+.gwpub-Rotated a.title,
+.gwpub-Rotated a.title:active,
+.gwpub-Rotated a.title:link,
+.gwpub-Rotated a.title:hover,
+.gwpub-Rotated a.title:visited {
+  /*color: @Rotated-Title!important;*/
+  /*font-family: @body;
+    font-size: 13px!important;
+    font-weight: bold!important;*/
+  font-family: "Segoe UI Semilight", "Segoe UI", "Segoe", Tahoma, Helvetica, Arial, sans-serif;
+  font-size: 1.15em;
+  height: 18px;
+  line-height: 18px;
+  left: 150px;
+  overflow: hidden;
+  position: absolute;
+  width: 500px;
+}
+.gwpub-Rotated .description {
+  color: #a3a3a3;
+  font-family: "Segoe UI", "Segoe", Tahoma, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  height: 62px;
+  left: 150px;
+  line-height: 16px;
+  overflow: hidden;
+  position: absolute;
+  top: 24px;
+  width: 500px;
+}
+.gwpub-Rotated .description * {
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+}
+.gwpub-Rotated a.morelink,
+.gwpub-Rotated a.morelink:link,
+.gwpub-Rotated a.morelink:active,
+.gwpub-Rotated a.morelink:visited,
+.gwpub-Rotated a.morelink:hover {
+  background: transparent url("/Style Library/GridSoft/GridWorks/NewsRotator/images/icon.png") no-repeat top left;
+  color: #505a86;
+  display: block;
+  font-family: "Segoe UI", "Segoe", Tahoma, Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  height: 15px;
+  left: 150px;
+  line-height: 15px;
+  padding: 0 0 0 20px;
+  position: absolute;
+  top: 100px;
+  width: auto;
+}
+/* toc elements */
+
+.gwpub-rotated-toc {
+  background: white;
+  border-bottom: 0;
+  border-left: 0;
+  clear: both;
+  list-style: none;
+  margin: 0 0 10px 0;
+  padding: 0;
+  width: 670px;
+}
+.gwpub-rotated-toc li {
+  background: #a3a3a3;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 1px solid white;
+  border-top: 0;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 133px;
+}
+.gwpub-rotated-toc li.last {
+  border-right: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+.gwpub-rotated-toc li span {
+  border-top: 3px solid white;
+  color: white;
+  display: block;
+  font-size: 13px;
+  height: 18px;
+  line-height: 15px;
+  overflow: hidden;
+  padding: 5px 10px 2px 5px;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ms-WPBody ul.gwpub-rotated-toc a:hover {
+  text-decoration: none;
+}
+/* active */
+
+.gwpub-rotated-toc li.gwpub-rotated-toc-active {
+  background: #5a5a5a;
+}
+.gwpub-rotated-toc li.gwpub-rotated-toc-active span {
+  border-top: 3px solid #a3a3a3;
+}
+/* navigation elements */
+
+#gwpub-rotated-nav {
+  clear: both;
+  list-style: none;
+  margin: 5px 0;
+  padding: 0;
+}
+#gwpub-rotated-nav li {
+  cursor: pointer;
+}
+#gwpub-rotated-nav-next {
+  float: right;
+}
+#gwpub-rotated-nav-prev {
+  float: left;
+}
+/* RSS-Feed element */
+
+.gwpub-cqfeed {
+  background-color: white;
+  padding-right: 1em;
+  width: 670px;
+}
+.gwpub-rotated-meta {
+  position: absolute;
+  top: 100px;
+  right: 10px;
+}
+.gwpub-rotated-category {
+  display: inline;
+  padding: 0 0 0 10px;
+  color: #666666;
+  text-decoration: none;
+}
+.gwpub-rotated-date {
+  display: inline;
+  padding: 0 0 0 10px;
+  color: #666666;
+  text-decoration: none;
+}

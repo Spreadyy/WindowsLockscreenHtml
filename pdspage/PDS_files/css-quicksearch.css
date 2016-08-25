@@ -1,0 +1,397 @@
+
+/* -------- ~assets/QuickSearch/module.css -------- */
+/* -------- @15…/GridWorksConfig/Branding/00_Core.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/10_Branding.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/20_Navigation.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/30_QuickSearch.less -------- */
+/* the search-center link. */
+/* -------- @15…/GridWorksConfig/Branding/40_Publishing.less -------- */
+/* -------- /GridWorksConfig/Branding/90_Psych.less -------- */
+/*f1f1f1;*/
+.s4-search {
+  position: relative;
+}
+.gs-quicksearch {
+  margin-left: -300px;
+  background: none repeat scroll 0 0 transparent;
+  display: none;
+  position: absolute;
+  right: 30px;
+  /* leave some room for the help icon */
+  width: 300px;
+  height: 27px;
+  z-index: 60;
+}
+.gs-quicksearch-tabs {
+  top: -24px;
+}
+.gs-quicksearch-panel {
+  display: none;
+}
+.gs-searchcenter-link-outer {
+  background: #f7941d;
+  height: 27px;
+  margin-top: 25px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 25px;
+}
+.gs-searchcenter-link {
+  background: white url("/Style Library/GridSoft/Psych/QuickSearch/images/search.png") 3px 2px no-repeat;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  margin-top: 4px;
+  height: 18px;
+  width: 20px;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+}
+.gs-searchcenter-link span {
+  position: absolute;
+  left: -6666px;
+  top: 0;
+}
+#gs-quicksearch-toggle {
+  background: none repeat scroll 0 0 transparent;
+  border: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.gs-quicksearch .ui-widget-header {
+  background: none repeat scroll 0 0 transparent;
+}
+.gs-quicksearch .ui-tabs .ui-tabs-nav {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.gs-quicksearch .ui-tabs .ui-tabs-nav li {
+  background: #ffbf73;
+  border: none;
+  border-right: 1px solid #999999;
+  width: 100;
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+.gs-quicksearch .ui-tabs .ui-tabs-nav li.last {
+  border-right: 0;
+}
+.gs-quicksearch .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.gs-quicksearch .ui-tabs .ui-tabs-nav li a {
+  color: black;
+  background: #ffbf73;
+  display: block;
+  font-size: 11px;
+  padding: 0 9px;
+  line-height: 25px;
+  margin: 0;
+  float: none;
+  text-align: left;
+  text-transform: uppercase;
+  border-width: 0;
+}
+.gs-quicksearch .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+  background: #ffac40;
+  color: black;
+  margin: 0;
+  font-weight: normal;
+}
+.gs-quicksearch .ui-tabs .ui-tabs-panel {
+  background: white;
+  padding: 0;
+}
+/* searchresults form common */
+
+.gs-quicksearch .form {
+  border: none;
+  background: #f7941d;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 27px;
+}
+.gs-quicksearch input,
+.gs-quicksearch select {
+  width: 240px;
+  font-size: 11px;
+  color: #666666;
+  background: white;
+  float: left;
+}
+.gs-quicksearch select {
+  margin: 3px 3px 0 3px;
+  padding: 0;
+  height: 21px;
+  line-height: 24px;
+  width: 120px;
+}
+.gs-quicksearch input {
+  border: 0;
+  margin: 4px 0 1px 0;
+  height: 16px;
+  padding: 2px 4px 2px 4px;
+  width: 120px;
+}
+#gs-quicksearch-button {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-image: url("/Style Library/GridSoft/GridWorks/QuickSearch/images/bg_input.png");
+  background-position: center right;
+  margin-top: 26px;
+  height: 25px;
+  width: 15px;
+  display: block;
+  float: left;
+}
+.gs-quicksearch .form a {
+  margin: 0 0 8px 8px;
+  padding: 0 0 0 7px;
+  display: block;
+  width: 232px;
+  color: white;
+  font-size: 11px;
+  background: transparent url("/Style Library/GridSoft/GridWorks/QuickSearch/images/bg_extendedsearch.png") no-repeat 0 5px;
+}
+.gs-quicksearch .ui-button-icon-only .ui-button-text,
+.gs-quicksearch .ui-button-icons-only .ui-button-text {
+  padding: 2px;
+}
+#gs-quicksearch-submit {
+  left: -9999px;
+  position: absolute;
+  top: 0;
+}
+/* search result loading */
+
+.gs-quicksearch .loading {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cccccc;
+  font-size: 11px;
+  display: none;
+}
+.gs-quicksearch .loading span {
+  background: url(loadingcirclests16.gif) no-repeat 0 0;
+  display: block;
+  margin: 5px 5px;
+  padding: 0 0 0 18px;
+  font-size: 11px;
+  color: #666666;
+  height: 18px;
+}
+/* search results */
+
+.gs-quicksearch .results {
+  background: white;
+  width: 275px;
+  display: none;
+  top: 52px;
+}
+.gs-quicksearch .results ul {
+  background: white;
+  border-width: 0 1px 0 1px;
+  border-style: solid;
+  border-color: #cccccc;
+  padding: 0;
+  margin: 0;
+}
+.gs-quicksearch .results li {
+  clear: both;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.gs-quicksearch .results .ui-menu-item a,
+.gs-quicksearch .results .ui-menu .ui-menu-item a.ui-state-focus,
+.gs-quicksearch .results .ui-menu .ui-menu-item a.ui-state-active {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #cccccc;
+  background-color: white;
+  color: #666666;
+  margin: 0 !important;
+  padding: 4px;
+  position: relative;
+  width: 267px;
+}
+.gs-quicksearch .results .ui-menu .ui-menu-item a.ui-state-focus,
+.gs-quicksearch .results .ui-menu .ui-menu-item a.ui-state-active {
+  background-color: #ffbf73;
+  background-image: none;
+}
+.gs-quicksearch .results .ui-menu .ui-menu-item a {
+  line-height: 1.2;
+  font-size: 11px;
+  text-align: left;
+}
+/* formatting inside search result list items */
+
+.gs-quicksearch .ui-menu-item .arrow {
+  background-color: transparent;
+  background-image: none;
+  background-position: center right;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 14px;
+  height: 100%;
+}
+.gs-quicksearch .ui-menu-item .arrow i {
+  background-image: url("/Style Library/GridSoft/GridWorks/Core/jqueryui/images/ui-icons_ffffff_256x240.png");
+  background-position: -36px -21px;
+  height: 7px;
+  position: absolute;
+  right: 4px;
+  top: 40%;
+  width: 8px;
+  display: none;
+}
+.gs-quicksearch .ui-menu-item .label {
+  clear: both;
+  display: block;
+  font-size: 12px;
+  line-height: 1.3em;
+  margin: 0 0 0 22px;
+  overflow: hidden;
+  padding: 0;
+  white-space: nowrap;
+  width: 203px;
+}
+.gs-quicksearch .ui-menu-item .line2 {
+  clear: both;
+  color: #a3a3a3;
+  display: block;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 1.3em;
+  margin: 2px 0 0 22px;
+  overflow: hidden;
+  padding: 0;
+  white-space: nowrap;
+  width: 203px;
+}
+.gs-quicksearch .ui-menu-item .image {
+  left: 4px;
+  position: absolute;
+  top: 4px;
+}
+/* hover state */
+
+.gs-quicksearch .ui-menu-item a.ui-state-focus .arrow {
+  background-color: #f7941d;
+  border: 0;
+}
+.gs-quicksearch .ui-menu-item a.ui-state-focus .arrow i {
+  display: block;
+}
+.gs-quicksearch .ui-menu-item a.ui-state-focus div {
+  color: black;
+}
+/* forms with and without scopes */
+
+.gs-quicksearch .form.with-scope input {
+  width: 141px!important;
+  float: left;
+}
+.gs-quicksearch .form.no-scope select {
+  display: none;
+}
+.gs-quicksearch .form.no-scope input {
+  width: 264px!important;
+  margin: 4px 3px 0 3px;
+}
+/* content tab */
+
+/* people tab */
+
+.gs-quicksearch .people a {
+  height: 48px;
+}
+.gs-quicksearch .people .image {
+  top: 6px;
+  width: 42px;
+  height: 42px;
+  margin: 0;
+  overflow: hidden;
+}
+.gs-quicksearch .people .image img {
+  width: 42px;
+  position: absolute;
+  top: -4px;
+  left: 0;
+}
+.gs-quicksearch .people .label {
+  margin-left: 48px;
+}
+.gs-quicksearch .people .line2 {
+  margin-left: 48px;
+  font-weight: normal;
+}
+.gs-quicksearch .people .line3 {
+  margin-left: 48px;
+  font-size: 11px;
+  line-height: 1.2em;
+  color: #a3a3a3;
+  font-weight: normal;
+}
+/* quicklink tab */
+
+.gs-quicksearch .quicklinks .ui-button {
+  margin: 1px 0 0 2px;
+}
+.gs-quicksearch .quicklinks .loading {
+  display: block;
+}
+/* total results row */
+
+.gs-quicksearch .ui-menu-item-total {
+  clear: both;
+  padding: 4px;
+}
+.gs-quicksearch .ui-menu-item-total a {
+  height: auto;
+}
+.gs-quicksearch .ui-menu-item-total .label {
+  color: #666666;
+  font-size: 12px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0 0 0 8px;
+  background: url("/Style Library/GridSoft/GridWorks/QuickSearch/images/bg_moreresults.png") no-repeat 0 4px;
+}
+.gs-quicksearch .ui-menu-item-total .line2 {
+  color: #666666;
+  font-size: 12px;
+  font-weight: normal;
+  margin: 3px 0 0 8px;
+}
+.gs-quicksearch .ui-menu-item-total .image,
+.gs-quicksearch .ui-menu-item-total .line3 {
+  display: none;
+  margin: 0;
+}
+.gs-quicksearch .ui-menu-item-total a.ui-state-focus {
+  background: none;
+}
+.gs-quicksearch-dropdown .gs-searchcenter-link-outer {
+  margin-top: 0;
+}
+.gs-quicksearch-dropdown .results {
+  top: 27px;
+}
+.gs-quicksearch-dropdown .loading {
+  left: 0;
+  position: absolute;
+  top: 27px;
+  width: 275px;
+}

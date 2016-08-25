@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/lockscreen.css">
+</head>
+
+<body oncontextmenu="return false;">
+    <div class="underlay">
+        <div class="top">
+            <div class="content">
+                <div class="backarrow">
+                    <img draggable="false" src="img/backarrow.png">
+                </div>
+                <div class="profile">
+                    <img draggable="false" src="img/profile.png">
+                </div>
+                <div class="signin">
+                    <h2>Sandro Scheiwiller</h2>
+                    <p>sghcare\sandro.scheiwiller</p>
+                    <p>Gesperrt</p>
+                    <form>
+                        <input type="password" placeholder="Kennwort" class="pw">
+                        <button class="send" draggable="false"><img draggable="false" src="img/arrow.png"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="symbols">
+            <div class="left">
+                <div class="symbol"><img src="img/ease.png"></div>
+                <div class="symbol"><img src="img/network.png"></div>
+            </div>
+            <div class="right">
+                <div class="symbol"><img src="img/deu.png"></div>
+                <div class="symbol"><img src="img/io.png"></div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay closed">
+        <div class="content">
+            <div class="time"></div>
+            <div class="date"></div>
+            <img class="network" src="img/network.png">
+        </div>
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="scripts/screenfull.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+    <script src="scripts/lockscreen.js"></script>
+</body>
+
+</html>

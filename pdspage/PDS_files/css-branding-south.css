@@ -1,0 +1,961 @@
+
+/* -------- ~assets/Branding/MasterPage/screen.css -------- */
+/* -------- @15…/GridWorksConfig/Branding/00_Core.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/10_Branding.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/20_Navigation.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/30_QuickSearch.less -------- */
+/* the search-center link. */
+/* -------- @15…/GridWorksConfig/Branding/40_Publishing.less -------- */
+/* -------- /GridWorksConfig/Branding/90_Psych.less -------- */
+/*f1f1f1;*/
+/* -------- /GridWorksConfig/Branding/90_Psych_Theme_South.less -------- */
+/*f1f1f1;*/
+a,
+a:link,
+.ms-WPBody a,
+.ms-WPBody a:link {
+  color: #505a86;
+}
+a:active,
+a:hover,
+.ms-WPBody a:active,
+.ms-WPBody a:hover {
+  color: #274c8e;
+}
+a:visited,
+.ms-link:visited,
+.ms-WPBody a:visited {
+  color: #274c8e;
+}
+.clearfix:before,
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+  /* IE < 8 */
+
+}
+/* corev15.css, line #12878, #13601 */
+
+/* half-transparent color of the suite bar right menu, and ribbon bar */
+
+/* corresponding */
+
+#suiteBarRight,
+#globalNavBox,
+.ms-clientcontrol-chromeheader {
+  background-color: #f1f1f1;
+}
+.ms-cui-topBar2 {
+  border-bottom: 1px solid #f1f1f1;
+}
+/* corev15.css, line #6593 */
+
+/* overrides the default visited style for horizonal menus */
+
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:link,
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:visited,
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-selected,
+.ms-tv-selected:link {
+  color: #505a86;
+}
+/* corev15.css, line #8044 */
+
+/* overrides the default visited style for tables */
+
+.ms-vb a:visited,
+.ms-vb2 a:visited,
+.ms-vb-user a:visited {
+  color: #505a86;
+}
+/* corev15.css, line #8048 */
+
+/* overrides the default visited style for tables */
+
+.ms-vb a:visited:hover,
+.ms-vb2 a:visited:hover,
+.ms-vb-user a:visited:hover {
+  color: #505a86;
+}
+/* corev15.css, line #8052 */
+
+/* overrides the default visited style for alternating list rows */
+
+.ms-alternatingstrong .ms-vb a:link,
+.ms-alternatingstrong .ms-vb2 a:link,
+.ms-alternatingstrong .ms-vb-user a:link,
+.ms-alternatingstrong .ms-vb a:visited,
+.ms-alternatingstrong .ms-vb2 a:visited,
+.ms-alternatingstrong .ms-vb-user a:visited,
+.ms-alternatingstrong .ms-vb a:visited:hover,
+.ms-alternatingstrong .ms-vb2 a:visited:hover,
+.ms-alternatingstrong .ms-vb-user a:visited:hover {
+  color: #505a86;
+}
+/* text in the minimal download strategy (mds) start page */
+
+.ms-accentText,
+.ms-accentText:visited {
+  color: #0072c6;
+}
+/* site actions menu */
+
+.ms-core-menu-item:hover,
+.ms-core-menu-itemSelected {
+  background: #7fcde6f7;
+}
+/* search box autocomplete menu */
+
+.ms-qSuggest-container {
+  border: 1px solid white;
+}
+.ms-qSuggest-hListItem {
+  background: #7fcde6f7;
+}
+.ms-srch-sb-border,
+.ms-srch-sb-borderFocused {
+  border: 1px solid #ababab;
+}
+
+/* -------- ~assets/Branding/MasterPage/header.css -------- */
+/* -------- @15…/GridWorksConfig/Branding/00_Core.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/10_Branding.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/20_Navigation.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/30_QuickSearch.less -------- */
+/* the search-center link. */
+/* -------- @15…/GridWorksConfig/Branding/40_Publishing.less -------- */
+/* -------- /GridWorksConfig/Branding/90_Psych.less -------- */
+/*f1f1f1;*/
+/* -------- /GridWorksConfig/Branding/90_Psych_Theme_South.less -------- */
+/*f1f1f1;*/
+.s4-titlelogo {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  margin: 0;
+  padding: 0;
+  z-index: 8;
+}
+.s4-titlelogo a {
+  background: transparent url("Logo_Sued.jpg") no-repeat 0 0;
+  display: block;
+  width: 142px;
+  height: 42px;
+  margin: 0;
+  padding: 0;
+  text-indent: -9999px;
+}
+.s4-titlelogo img {
+  display: none;
+}
+#suiteBarLeft {
+  background: #828282;
+  color: white;
+}
+.ms-core-suiteLink-a,
+.ms-core-suiteLink-a:link,
+.ms-core-suiteLink-a:visited,
+a.ms-core-suiteLink-disabled {
+  color: white;
+}
+.ms-core-suiteLink-a:hover {
+  background: #b0b0b0;
+}
+
+/* -------- ~assets/Branding/MasterPage/menu-horizontal.css -------- */
+/* -------- @15…/GridWorksConfig/Branding/00_Core.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/10_Branding.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/20_Navigation.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/30_QuickSearch.less -------- */
+/* the search-center link. */
+/* -------- @15…/GridWorksConfig/Branding/40_Publishing.less -------- */
+/* -------- /GridWorksConfig/Branding/90_Psych.less -------- */
+/*f1f1f1;*/
+/* -------- /GridWorksConfig/Branding/90_Psych_Theme_South.less -------- */
+/*f1f1f1;*/
+.gs-topnav {
+  background: #f1f1f1;
+  margin: 0;
+  border: none;
+  height: 28px;
+  width: 100%;
+  position: relative;
+}
+.gs-topnav .ms-core-listMenu-root {
+  margin: 0;
+  padding: 0;
+}
+.gs-topnav li {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.gs-topnav li > a,
+.gs-topnav li.static > a.menu-item {
+  float: left;
+  line-height: 28px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  background: #828282;
+  color: white;
+  font-weight: normal;
+  border-top: 0;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: white;
+  border-bottom: 0;
+  border-left: 0;
+  padding: 0 20px 0;
+  margin: 0;
+  height: auto;
+}
+.gs-topnav li > a:hover,
+.gs-topnav li.static > a:hover,
+.gs-topnav li.static > a.selected:hover {
+  background: #b0b0b0;
+  color: white;
+  text-decoration: none;
+}
+.gs-topnav li > a.selected,
+.gs-topnav li.static > a.selected,
+.gs-topnav li.static.gs-flyout-active > a,
+.gs-topnav li.static.gs-flyout-active > a.menu-item {
+  background: #b0b0b0;
+  color: white;
+}
+.ms-mpSearchBox {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  width: 260px;
+  z-index: 11;
+}
+.ms-srch-sb {
+  background: white;
+}
+/* edit links - normal */
+
+.gs-topnav li.ms-listMenu-editLink {
+  margin-left: 10px !important;
+  margin-top: 2px !important;
+}
+.gs-topnav .ms-navedit-editLinksText > span > .ms-metadata {
+  color: #274c8e;
+}
+.gs-topnav .ms-navedit-editLinksIcon {
+  left: -218px;
+  position: absolute;
+  top: -83px;
+}
+/* edit links - editing */
+
+/* corev15.css, line #6837 (override the default CommandLinks definition since our */
+
+/* navigation has a colored background. */
+
+.gs-topnav .ms-navedit-editLinksText > span > .ms-metadata,
+.gs-topnav .ms-core-listMenuEdit > tr > .ms-navedit-linkCell > .ms-core-listMenu-item {
+  color: white;
+}
+.gs-topnav .input.ms-navedit-editButton {
+  vertical-align: middle;
+}
+.gs-topnav .ms-listMenu-editLink .ms-navedit-addLinkText {
+  color: white;
+}
+.gs-topnav .ms-list-addnew-img16 {
+  left: -233px;
+  top: -102px;
+}
+.gs-topnav .ms-core-listMenu-horizontalBox {
+  color: #cccccc;
+}
+.gs-topnav .ms-listMenu-editLink .ms-navedit-appendarea {
+  border: none;
+}
+
+/* -------- ~assets/Branding/MasterPage/menu-vertical.css -------- */
+/* -------- @15…/GridWorksConfig/Branding/00_Core.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/10_Branding.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/20_Navigation.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/30_QuickSearch.less -------- */
+/* the search-center link. */
+/* -------- @15…/GridWorksConfig/Branding/40_Publishing.less -------- */
+/* -------- /GridWorksConfig/Branding/90_Psych.less -------- */
+/*f1f1f1;*/
+/* -------- /GridWorksConfig/Branding/90_Psych_Theme_South.less -------- */
+/*f1f1f1;*/
+/* corev15.css, line #1311 ff. */
+
+/* define the colors of the left navgiation links */
+
+.ms-sideNav {
+  color: black;
+}
+.ms-sideNav:active {
+  color: black;
+}
+/* corev15.css, line #6706 */
+
+/* overrides the hover color for the tree view */
+
+.ms-core-listMenu-horizontalBox a.ms-core-listMenu-item:hover,
+.ms-core-listMenu-horizontalBox a.ms-core-listMenu-item.ms-core-listMenu-selected:hover,
+.ms-sideNav:hover,
+a.ms-tv-item:hover,
+a.ms-tv-header:hover {
+  color: #5a5a5a;
+}
+/* corev15.css, line #6699 */
+
+/* overrides the default hover style for the left nav  */
+
+li > a.ms-core-listMenu-item.ms-core-listMenu-selected:hover,
+li > a.ms-core-listMenu-item:hover,
+li > a.ms-core-listMenu-item:active {
+  background-color: transparent;
+}
+/* corev15.css, line #6733 */
+
+/* overrides the default selected style for the left nav  */
+
+.ms-core-listMenu-selected:link,
+.ms-core-listMenu-selected:visited,
+.ms-core-listMenu-selected {
+  background-color: transparent;
+}
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:link,
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:visited,
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-selected,
+.ms-tv-selected:link {
+  color: black;
+}
+/* custom styles, activated with feature GridSoft_GridWorks_Navigation_QuickLaunchMenu */
+
+.gs-quicklaunch {
+  margin: 0 0 0 15px;
+}
+.gs-quicklaunch ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.gs-quicklaunch ul li a,
+.gs-quicklaunch ul li a:visited,
+.gs-quicklaunch ul li a:hover,
+.gs-quicklaunch ul li a:active {
+  line-height: 16px;
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 0;
+  padding: 0;
+  margin: 0;
+  border: none;
+  text-decoration: none;
+}
+.gs-quicklaunch ul li a {
+  color: black;
+}
+.gs-quicklaunch ul li a:hover {
+  color: #5a5a5a !important;
+}
+.gs-quicklaunch ul li a:active {
+  color: black;
+}
+.gs-quicklaunch ul li a.selected {
+  color: black !important;
+}
+.gs-quicklaunch ul li a:visited {
+  color: #666666;
+}
+/* navigation: 1st level */
+
+.gs-quicklaunch ul li {
+  margin: 15px 0 0 0;
+  border-top: 1px solid #cccccc;
+  background-color: transparent;
+  background-image: url("menu-vertical.png");
+  background-repeat: no-repeat;
+  background-position: -355px 0;
+  padding: 6px 0 0 22px;
+}
+.gs-quicklaunch ul li.selected {
+  border-top: 1px solid #5a5a5a;
+  background-color: transparent;
+  background-position: -668px 0;
+}
+/* show navigation on layout pages that use the out of the box navigation like WebAnalytics Report (KSSGNET-456) */
+
+.gs-quicklaunch ul.static {
+  display: block !important;
+}
+/* navigation: 2st level */
+
+/* navigation: 2st level children toggle (only show if parent node is selected ) */
+
+.gs-quicklaunch ul ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: none;
+}
+.gs-quicklaunch ul li.selected ul {
+  display: block;
+}
+.gs-quicklaunch ul ul li {
+  border: none;
+  font-weight: normal !important;
+  margin: 0;
+  padding: 0 0 0 14px;
+  background-position: -981px 2px;
+  line-height: 18px;
+}
+.gs-quicklaunch ul ul li.selected {
+  background-position: -1241px 2px;
+  border: none;
+}
+.gs-quicklaunch ul ul li.leaf {
+  background-position: 0 0;
+}
+.gs-quicklaunch ul ul li.children.selected {
+  border: none;
+}
+.ms-treeviewouter > div {
+  width: 240px !important;
+}
+/* navigation: 3rd level children toggle (only show if parent node is selected ) */
+
+.gs-quicklaunch ul li.selected ul ul {
+  display: none;
+}
+.gs-quicklaunch ul ul li.selected ul {
+  display: block;
+}
+.gs-quicklaunch ul ul li a,
+.gs-quicklaunch ul ul li a:visited,
+.gs-quicklaunch ul ul li a:hover,
+.gs-quicklaunch ul ul li a:active {
+  font-weight: normal;
+}
+/* special navigation links (recyle bin and all site content links) */
+
+.gs-specialNavLinkList {
+  border: medium none;
+  display: block;
+  padding: 0;
+  margin: 20px 0 0 15px;
+}
+.gs-specialNavLinkList li {
+  font-weight: normal;
+  min-height: 18px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.gs-specialNavLinkList .s4-specialNavIcon {
+  position: absolute !important;
+  left: 0;
+  top: 1px;
+}
+.gs-specialNavLinkList a {
+  padding: 5px 0 0 16px;
+  text-decoration: none;
+  color: black !important;
+}
+.gs-specialNavLinkList a:hover {
+  color: #5a5a5a !important;
+}
+.gs-specialNavLinkList a:active {
+  color: black;
+}
+/* GWNAV-33: align calendar widget with navigator and quicklaunch. */
+
+#DatePickerDiv {
+  margin-left: -5px;
+}
+
+/* -------- ~assets/Branding/MasterPage/breadcrumb.css -------- */
+/* -------- @15…/GridWorksConfig/Branding/00_Core.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/10_Branding.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/20_Navigation.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/30_QuickSearch.less -------- */
+/* the search-center link. */
+/* -------- @15…/GridWorksConfig/Branding/40_Publishing.less -------- */
+/* -------- /GridWorksConfig/Branding/90_Psych.less -------- */
+/*f1f1f1;*/
+/* -------- /GridWorksConfig/Branding/90_Psych_Theme_South.less -------- */
+/*f1f1f1;*/
+.gs-pagetitle {
+  padding: 0 0 20px 0;
+}
+.gs-pagetitle > .ms-breadcrumb-box {
+  height: 25px;
+  display: inline-block;
+}
+/* position the 'navigation nach oben' icon */
+
+.gs-pagetitle > .ms-breadcrumb-box > .ms-breadcrumb-top {
+  float: left;
+  padding: 0 0 2px 0;
+}
+/* float the breadcrumb next to the 'navigation nach oben' icon */
+
+.gs-pagetitle .gs-breadcrumb {
+  width: auto;
+  white-space: nowrap;
+  float: left;
+  padding: 4px 0 0 5px;
+  margin: 0;
+}
+/* position the page description icon at the end of the breadcrumb. */
+
+.gs-pagetitle .gs-pagedescription {
+  float: left;
+  padding: 5px 0 0 5px;
+}
+/* position the 2nd breadcrumb (or page title) below the 1st breadcrumb. */
+
+.gs-pagetitle .gs-pagetitleintitlearea {
+  float: left;
+  padding: 0 0 0 3px;
+}
+/* add some whitespace above the page title. */
+
+.gs-pagetitle .ms-core-pageTitle {
+  padding: 0;
+  margin: 33px 0 40px 0;
+  display: none;
+}
+.gs-pagetitle .ms-core-pageTitle,
+.gs-pagetitle .ms-core-pageTitle a {
+  font-family: "Segoe UI", "Segoe", Tahoma, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-transform: none;
+}
+.gs-context-list .ms-core-pageTitle,
+.gs-context-layouts .ms-core-pageTitle {
+  display: block;
+}
+/* align the breadcrumb icons */
+
+.gs-pagetitle .ms-core-pageTitle span span span {
+  height: 12px !important;
+}
+/* SMCDMS-136: hide title for dialogs. */
+
+.ms-dialog .gs-pagetitle,
+.ms-dialog .gs-breadcrumb,
+.ms-dialog .ms-breadcrumb-box {
+  display: none;
+  float: none;
+}
+.ms-dialog .ms-core-pageTitle {
+  font-size: 12px;
+}
+.gs-pagetitle .gs-breadcrumb .breadcrumbCurrent {
+  color: #5a5a5a;
+}
+.ms-breadcrumbNode > a,
+.ms-breadcrumbCurrentNode > a,
+.ms-breadcrumbRootNode > a,
+.gs-breadcrumb a,
+.gs-pagetitleintitlearea a {
+  color: #666666;
+}
+.ms-breadcrumbNode > a:visited,
+.ms-breadcrumbCurrentNode > a:visited,
+.ms-breadcrumbRootNode > a:visited,
+.gs-breadcrumb a:visited,
+.gs-pagetitleintitlearea a:visited {
+  color: #666666;
+}
+.ms-breadcrumbNode > a:hover,
+.ms-breadcrumbCurrentNode > a:hover,
+.ms-breadcrumbRootNode > a:hover,
+.gs-breadcrumb a:hover,
+.gs-pagetitleintitlearea a:hover {
+  color: #5a5a5a;
+  text-decoration: none;
+}
+.ms-breadcrumbNode > a:active,
+.ms-breadcrumbCurrentNode > a:active,
+.ms-breadcrumbRootNode > a:active,
+.gs-breadcrumb a:active,
+.gs-pagetitleintitlearea a:active {
+  color: #5a5a5a;
+  text-decoration: none;
+}
+
+/* -------- ~assets/Branding/MasterPage/richtext.css -------- */
+/* -------- @15…/GridWorksConfig/Branding/00_Core.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/10_Branding.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/20_Navigation.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/30_QuickSearch.less -------- */
+/* the search-center link. */
+/* -------- @15…/GridWorksConfig/Branding/40_Publishing.less -------- */
+/* -------- /GridWorksConfig/Branding/90_Psych.less -------- */
+/*f1f1f1;*/
+/* -------- /GridWorksConfig/Branding/90_Psych_Theme_South.less -------- */
+/*f1f1f1;*/
+
+/* -------- ~assets/Branding/Splitter/module.css -------- */
+/* -------- @15…/GridWorksConfig/Branding/00_Core.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/10_Branding.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/20_Navigation.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/30_QuickSearch.less -------- */
+/* the search-center link. */
+/* -------- @15…/GridWorksConfig/Branding/40_Publishing.less -------- */
+/* -------- /GridWorksConfig/Branding/90_Psych.less -------- */
+/*f1f1f1;*/
+/* -------- /GridWorksConfig/Branding/90_Psych_Theme_South.less -------- */
+/*f1f1f1;*/
+/* Splitbar styles; these are the default class names and required styles */
+
+.splitbarV {
+  float: left;
+  width: 6px;
+  height: 100%;
+  line-height: 0px;
+  font-size: 0px;
+  border-left: solid 1px #9cbdff;
+  border-right: solid 1px #9cbdff;
+  background: #cbe1fb url("/Style Library/GridSoft/GridWorks/Branding/Splitter/panev.gif") 0% 50%;
+}
+.splitbarH {
+  height: 6px;
+  text-align: left;
+  line-height: 0px;
+  font-size: 0px;
+  border-top: solid 1px #9cbdff;
+  border-bottom: solid 1px #9cbdff;
+  background: #cbe1fb url("/Style Library/GridSoft/GridWorks/Branding/Splitter/paneh.gif") 50% 0%;
+}
+.splitbuttonV {
+  margin-top: -41px;
+  margin-left: -4px;
+  top: 50%;
+  position: relative;
+  height: 83px;
+  width: 10px;
+  background: transparent url("/Style Library/GridSoft/GridWorks/Branding/Splitter/panevc.gif") 10px 50%;
+}
+.splitbuttonV.invert {
+  margin-left: 0px;
+  background: transparent url("/Style Library/GridSoft/GridWorks/Branding/Splitter/panevc.gif") 0px 50%;
+}
+.splitbuttonH {
+  margin-left: -41px;
+  left: 50%;
+  position: relative;
+  height: 10px !important;
+  width: 83px;
+  background: transparent url("/Style Library/GridSoft/GridWorks/Branding/Splitter/panehc.gif") 50% 0px;
+}
+.splitbuttonH.invert {
+  margin-top: -4px;
+  background: transparent url("/Style Library/GridSoft/GridWorks/Branding/Splitter/panehc.gif") 50% -10px;
+}
+.splitbarV.working,
+.splitbarH.working,
+.splitbuttonV.working,
+.splitbuttonH.working {
+  -moz-opacity: .50;
+  filter: alpha(opacity=50);
+  opacity: .50;
+}
+
+/* -------- ~assets/Branding/Social/module.css -------- */
+/* -------- @15…/GridWorksConfig/Branding/00_Core.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/10_Branding.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/20_Navigation.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/30_QuickSearch.less -------- */
+/* the search-center link. */
+/* -------- @15…/GridWorksConfig/Branding/40_Publishing.less -------- */
+/* -------- /GridWorksConfig/Branding/90_Psych.less -------- */
+/*f1f1f1;*/
+/* -------- /GridWorksConfig/Branding/90_Psych_Theme_South.less -------- */
+/*f1f1f1;*/
+.ms-socialNotif-Container {
+  width: 200px;
+}
+.ms-socialNotif-groupSeparator {
+  border-width: 0 0 0 1px;
+  border-color: #cccccc;
+  border-style: solid;
+  height: 15px;
+}
+.ms-socialNotif {
+  height: 26px;
+  width: 24px;
+}
+.ms-socialNotif:hover {
+  background: #b5c9ee;
+  border: 1px solid #5080d8;
+}
+.ms-socialNotif img {
+  display: none;
+}
+.ms-socialNotif span span,
+.ms-socialNotifImg {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+#ms-socialNotif-AddQuickTag {
+  background: transparent url("/Style Library/GridSoft/GridWorks/Branding/Social/images/like.png") no-repeat 0 3px;
+}
+#ms-socialNotif-TagsAndNotes {
+  background: transparent url("/Style Library/GridSoft/GridWorks/Branding/Social/images/tag.png") no-repeat 0 3px;
+}
+#ms-socialNotif-Folder {
+  background: transparent url("/Style Library/GridSoft/GridWorks/Branding/Social/images/folder.png") no-repeat 0 3px;
+}
+#ms-socialNotif-Info {
+  background: transparent url("/Style Library/GridSoft/GridWorks/Branding/Social/images/info.png") no-repeat 0 3px;
+}
+#ms-socialNotif-Perm {
+  background: transparent url("/Style Library/GridSoft/GridWorks/Branding/Social/images/perm.png") no-repeat 0 3px;
+}
+.ms-socialNotif-text {
+  display: none;
+  font-family: Arial;
+  font-size: 11px;
+}
+
+/* -------- ~StyleLibrary/GridSoft/Psych/Branding/south-overrides.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/00_Core.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/10_Branding.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/20_Navigation.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/30_QuickSearch.less -------- */
+/* the search-center link. */
+/* -------- @15…/GridWorksConfig/Branding/40_Publishing.less -------- */
+/* -------- /GridWorksConfig/Branding/90_Psych.less -------- */
+/*f1f1f1;*/
+/* -------- /GridWorksConfig/Branding/90_Psych_Theme_South.less -------- */
+/*f1f1f1;*/
+/* ReSharper disable Html.PathError */
+
+/* CHANGE PSYCHINTRA-33 */
+
+.gwpub-article-abstract {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+}
+.gwpub-article-content {
+  font-family: Arial;
+}
+H1.gw-rteElement-H1 {
+  -ms-name: "Überschrift 1";
+  font-family: Arial;
+  font-size: 15px;
+  color: black;
+}
+H2.gw-rteElement-H2 {
+  -ms-name: "Überschrift 2";
+  font-family: Arial;
+  font-size: 13px;
+  color: black;
+}
+.gw-rteFontFace-1 {
+  -ms-name: "Standardschrift";
+  font-family: Arial;
+}
+.gw-rteFontSize-1 {
+  font-size: 13px;
+}
+.gw-rteForeColor-1 {
+  color: black;
+  -ms-color: "Black";
+}
+.gw-rteForeColor-2 {
+  color: #cccccc;
+  -ms-color: "Grey";
+}
+.gw-rteForeColor-3 {
+  color: #1a317f;
+  -ms-color: "Blue";
+}
+#Ribbon\.EditingTools\.CPEditTab\.Font\.FontBackgroundColor-Small {
+  display: none;
+}
+#Ribbon\.EditingTools\.CPEditTab\.Paragraph\.AlignCenter-Small {
+  display: none;
+}
+#Ribbon\.EditingTools\.CPEditTab\.Paragraph\.AlignRight-Small {
+  display: none;
+}
+#Ribbon\.EditingTools\.CPEditTab\.Paragraph\.AlignJustify-Small {
+  display: none;
+}
+.gw-rteTable-default {
+  -ms-name: "Standard";
+}
+.gw-rteTable-default,
+.gw-rteTable-default > tbody > tr > td,
+.gw-rteTable-default > tbody > tr > th,
+td.gw-rteTable-default,
+th.gw-rteTable-default,
+.gw-rtetablecells {
+  border: 1px solid #c6c6c6;
+}
+.gw-rteTable-0 {
+  -ms-name: "Durchsichtig";
+  border-width: 0px;
+  border-style: none;
+  border-collapse: collapse;
+}
+.gw-rteTable-3 {
+  -ms-name: "Raster";
+}
+.gw-rteTable-3,
+.gw-rteTable-3 > tbody > tr > td,
+.gw-rteTable-3 > tbody > tr > th {
+  border: 1px solid #ababab;
+}
+.gw-rteTable-3 tr.gw-rteTableOddRow-3 {
+  background-color: #d8d8d8;
+}
+.gw-rteTable-3 tr.gw-rteTableHeaderRow-3,
+.gw-rteTable-3 tr.gw-rteTableFooterRow-3,
+.gw-rteTable-3 tr.gw-rteTableEvenRow-3 {
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+/* END CHANGE PSYCHINTRA-33 */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+}
+.s4-titlelogo {
+  top: 5px;
+}
+.s4-titlelogo a {
+  background: url('Logo_Sued.jpg') no-repeat scroll center center transparent;
+  width: 320px;
+  height: 80px;
+}
+.ms-webpart-titleText {
+  background-color: #f1f1f1;
+  padding-left: 5px;
+}
+/* ------------------------------- background images ------------------------------- */
+
+.ms-backgroundImage {
+  background-color: white;
+  background-image: url("bg_body.png");
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  -webkit-background-size: auto;
+}
+#aspnetForm {
+  background-image: url("bg_form_sued.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+#s4-titlerow {
+  background-image: url("bg_titlerow.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.ms-core-overlay {
+  background: none;
+}
+#contentRow {
+  background: white;
+}
+/* define background colors for start page (minimal download strategy (mds) page). */
+
+.gs-startpage .gs-topnav,
+.gs-startpage #globalNavBox,
+.gs-startpage .ms-clientcontrol-chromeheader,
+.gs-startpage #s4-titlerow,
+.gs-startpage form,
+.ms-backgroundImage.gs-startpage {
+  background: none;
+  background-color: transparent;
+  background-position: inherit;
+  background-repeat: inherit;
+}
+/* GWDEM-78: hide branding background images in dialog mode. */
+
+.ms-dialog #s4-titlerow,
+.ms-dialog #aspnetForm {
+  background: none;
+}
+/* tree view */
+
+.ms-tv-box {
+  background: none repeat scroll 0 0 #dddddd;
+  border-top: 1px solid #eeeeee;
+  margin: 20px 0 0 15px;
+}
+.ms-tv-header {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0;
+  padding: 5px 0 5px 10px;
+  border-bottom: 1px solid #999999;
+}
+#ctl00_PlaceHolderLeftNavBar_TreeViewNavigationManagerV4 > div {
+  border-top: 1px solid #eeeeee;
+  padding-top: 5px;
+}
+/* Publishing overrides */
+
+.gwpub-titleintitlearea {
+  display: none;
+}
+.gwpub-article-modified {
+  display: none;
+}
+/* Quicksearch overrides */
+
+.gs-quicklaunch ul ul {
+  display: block;
+}
+.gs-quicklaunch ul li {
+  background-image: url("menu-vertical-sued.png");
+}
+.gs-quicklaunch ul li.selected {
+  border-top: 1px solid #1f5d94;
+}
+.gs-quicksearch .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+  background: #bbbbbb;
+  color: white;
+}
+.gs-quicksearch .ui-tabs .ui-tabs-nav li a {
+  color: white;
+  background: #888888;
+}
+.gs-searchcenter-link-outer {
+  background: #888888;
+}
+.gs-quicksearch .form {
+  background: #888888;
+}
+/* Navigation overrides */
+
+.gs-topnav li.static > a.menu-item {
+  text-transform: uppercase;
+}

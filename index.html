@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>PDS</title>
+    <style>
+        html {
+            font-family: 'Segoe UI Light', Arial, sans-serif;
+        }
+        .start, .name, .username {
+            background: rgb(24, 0, 82);
+            width: 200px;
+            padding: 20px;
+            margin:0 auto;
+            color: white;
+            border: 0;
+            display: inherit;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+        iframe {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 0;
+            border: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lockscreen :D</h1>
+    <div>
+        <input class="name" type="text" placeholder="Name" value="König Aaron HCARE-KPD..."></input>
+        <input class="username" type="text" placeholder="Username" value="SGHCARE\aaron.koenig"></input>
+        <button class="start">Start</button>
+    </div>
+    <iframe src="pdspage/PDS.html" sandbox="allow-top-navigation allow-scripts allow-same-origin"></iframe>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="scripts/screenfull.min.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>

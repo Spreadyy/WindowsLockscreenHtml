@@ -1,0 +1,187 @@
+html {
+	height: 100%;
+}
+body {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-user-select: none;
+	cursor: default;
+}
+body > div {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+.overlay {
+	background-image: url(../img/img100.jpg);
+	transform: translateY(-100%);
+	font-family: 'Segoe UI Light';
+	color: white;
+}
+.overlay.open {
+	transform: translateY(-200%) !important;
+	transition: transform 0.2s;
+}
+.overlay.closed {
+	transform: translateY(-100%) !important;
+	transition: transform 0.2s;
+}
+.overlay .content {
+	position: absolute;
+	bottom: 58px;
+	left: 73px;
+	pointer-events: none;
+}
+.overlay .time {
+	font-size: 143px;
+	line-height: 150px;
+	height: 150px;
+	width: 100%;
+}
+.overlay .time span {
+	display: inline-block;
+	float: left;
+}
+.overlay .time span:nth-child(2){
+	margin-top: -12px;
+}
+.overlay .date {
+	font-size: 56px;
+	line-height: 65px;
+	margin-left: 10px;
+}
+.overlay .network {
+	margin-top: 33px;
+	margin-left: 20px;
+}
+.underlay {
+	background-color: rgb(24, 0, 82);
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	color: white;
+	font-family: 'Segoe UI Light';
+}
+.underlay .top {
+	margin-top: calc(50vh - 206px);
+	display: flex;
+	justify-content: center;
+}
+.underlay .top .content {
+	flex: 0 0 525px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.underlay .top .content .backarrow {
+	position: absolute;
+	left: -50px;
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
+}
+.underlay .top .content .backarrow:hover,
+.underlay .top .content .backarrow:active {
+	background: rgb(43, 6, 128);
+}
+.underlay .top .content .signin {
+	flex: 0 0 305px;
+}
+.underlay .top .content .signin h2 {
+	font-weight: normal;
+	margin: -8px 0 -1px;
+	font-size: 27px;
+}
+.underlay .top .content .signin p {
+	margin: 0;
+}
+.underlay .top .content .signin p:nth-child(3) {
+	color: rgba(255, 255, 255, 0.6);
+	margin-top: -1px;
+}
+.underlay .top .content .signin form {
+	position: relative;
+	margin-top: 25px;
+}
+.underlay .top .content .signin input {
+	width: 100%;
+	outline: none;
+	box-sizing: border-box;
+	height: 32px;
+	font-family: 'Segoe UI';
+	font-size: 26px;
+	line-height: 12px;
+	padding: 10px;
+	border: 0;
+	background: rgba(255, 255, 255, 0.9);
+	letter-spacing: -1.7px;
+}
+.underlay .top .content .signin input:hover {
+	background: rgba(255, 255, 255, 0.95);
+}
+.underlay .top .content .signin input:active,
+.underlay .top .content .signin input:focus {
+	background: rgba(255, 255, 255, 1);
+	border-top: 6px white solid;
+	border-bottom: 6px white solid;
+}
+.underlay .top .content .signin input:focus:not(:placeholder-shown)::after {
+	content: "adsf";
+}
+.underlay .top .content .signin input::-webkit-input-placeholder {
+	color: rgba(0, 0, 0, 0.8);
+}
+.underlay .top .content .signin input:placeholder-shown {
+	font-size: 16px;
+	letter-spacing: 0;
+}
+.underlay .top .content .signin input::selection {
+	background-color: rgb(70, 23, 181);
+	color: white;
+}
+.underlay .top .content .signin button {
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	top: 2px;
+	right: 2px;
+	background: rgb(70, 23, 181);
+	padding: 0;
+	border: 0;
+	outline: none;
+}
+.underlay .top .content .signin button:hover {
+	background: rgba(70, 23, 181, 0.9);
+}
+.underlay .symbols {
+	flex: 0 0 auto;
+	padding: 38px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	height: calc(50px + 2 * 38px);
+	width: 100%;
+}
+.underlay .symbols > div {
+	display: flex;
+}
+.underlay .symbols .symbol {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+}
+.underlay .symbols .symbol:first-child {
+	margin-right: 15px;
+}
+.underlay .symbols .symbol:hover,
+.underlay .symbols .symbol:active {
+	background: rgb(43, 6, 128);
+}
+.underlay .symbols .symbol img {
+	pointer-events: none;
+}

@@ -1,0 +1,769 @@
+
+/* -------- ~assets/Flyout/module.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/00_Core.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/10_Branding.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/20_Navigation.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/30_QuickSearch.less -------- */
+/* the search-center link. */
+/* -------- @15…/GridWorksConfig/Branding/40_Publishing.less -------- */
+/* -------- /GridWorksConfig/Branding/90_Psych.less -------- */
+/*f1f1f1;*/
+.s4-tn {
+  z-index: 20;
+  /* make the top menu to lay above the flyout shim*/
+
+}
+/* ------------------------------ navigation flyout -------------------------------------*/
+
+.gs-flyout {
+  position: absolute;
+  margin-top: 5px;
+  left: 5px;
+  width: 1060px;
+  height: 550px;
+  background: white;
+  z-index: 20;
+  font-family: "Segoe UI", "Segoe", Tahoma, Helvetica, Arial, sans-serif;
+}
+.gs-flyout .gs-flyout-search {
+  background: white url("/Style Library/GridSoft/GridWorks/Flyout/images/bg_filter.png") no-repeat right center;
+  border: 1px solid #b8babd;
+  padding: 3px 34px 3px 6px;
+  margin: 0 0 0 5px 0;
+  font-size: 12px;
+  color: #999999;
+  width: 202px;
+  float: left;
+  font-family: "Segoe UI", "Segoe", Tahoma, Helvetica, Arial, sans-serif;
+}
+.gs-flyout.ui-widget-content {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cccccc;
+}
+.gs-flyout-inner {
+  width: 2120px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.gs-flyout-overview,
+.gs-flyout-details {
+  float: left;
+  width: 1040px;
+  height: 490px;
+  overflow: auto;
+  font-weight: normal;
+}
+.gs-flyout-shim {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 19;
+}
+.gs-flyout-header {
+  background: white;
+  padding: 8px 0 0 8px;
+  height: 32px;
+  position: relative;
+}
+.gs-flyout-title {
+  position: absolute;
+  border-top: 0;
+  border-width: 0 1px 0 1px;
+  border-color: transparent #cccccc transparent #cccccc;
+  border-style: solid;
+  top: -38px;
+  height: 38px;
+  left: -1px;
+  width: 100px;
+  overflow: hidden;
+}
+.gs-flyout-title span {
+  display: block;
+  background: white;
+  margin: 25px 0 0 0;
+  height: 15px;
+}
+.gs-flyout-title div {
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 2px solid #b8babd;
+  border-right: 2px solid #b8babd;
+  padding: 4px 11px;
+  height: 30px;
+  background: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+.gs-flyout-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 11px;
+  font-weight: bold;
+  color: #a3a3a3 !important;
+  display: block;
+  padding: 10px 10px 10px 20px;
+}
+.gs-flyout-close span {
+  float: left;
+  font-size: 12px;
+  display: block;
+  margin: 0 5px 0 0;
+  padding: 1px 2px 1px 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #a3a3a3;
+}
+.gs-flyout-close .ui-button {
+  margin: 0 0 0 2px;
+  padding: 2px 2px 1px;
+  float: left;
+}
+.gs-flyout-content {
+  width: 1040px;
+  height: 490px;
+  padding: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+.gs-flyout-content .gs-empty {
+  margin: 5px 0 0 5px;
+  padding: 1px 0 0 0;
+  font-size: 12px;
+  color: #888888;
+  display: block;
+  height: 20px;
+}
+.gs-flyout-content .gs-loading {
+  background: url(loadingcirclests16.gif) no-repeat 0 0;
+  margin: 5px 0 0 5px;
+  padding: 1px 0 0 23px;
+  font-size: 12px;
+  color: #cccccc;
+  display: block;
+  height: 20px;
+}
+.gs-flyout-content .gs-column {
+  float: left;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  width: 245px;
+  margin: 0 10px 0 0;
+  position: relative;
+}
+.gs-flyout-content .gs-column-withtitle {
+  padding-top: 40px;
+}
+.gs-flyout-content .gs-column-last {
+  margin-right: 0;
+}
+.gs-flyout-content .gs-item {
+  font-size: 12px;
+  padding: 1px;
+  background: white;
+  line-height: 15px;
+  clear: both;
+}
+.gs-flyout-content .gs-item a {
+  display: block;
+  position: relative;
+}
+.gs-flyout-content a,
+.gs-flyout-content a:link {
+  color: #666666;
+  text-decoration: none;
+}
+.gs-flyout-content a:visited {
+  color: #666666;
+  text-decoration: none;
+}
+.gs-flyout-content a:hover {
+  color: #5a5a5a;
+  text-decoration: none;
+}
+.gs-flyout-content a:active {
+  color: #5a5a5a;
+  text-decoration: none;
+}
+.gs-flyout-content div.gs-item-link {
+  color: #868686;
+  font-weight: bold;
+}
+.gs-flyout-content div.gs-item-link span.title {
+  border-bottom: 1px solid #cccccc !important;
+}
+.gs-flyout-content .gs-item span.title {
+  display: block;
+}
+.gs-flyout-content .gs-item span.abbreviation {
+  font-weight: normal;
+  font-size: 9px;
+  color: white;
+  width: 25px;
+  display: block;
+  text-align: right;
+  float: right;
+  padding: 2px 2px 0 0;
+}
+.gs-flyout-content .gs-item span.navigator {
+  height: 16px;
+  width: 16px;
+  background-color: transparent;
+  background-image: url("/Style Library/GridSoft/KSSG/Navigation/images/bg_navigator.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+}
+.gs-flyout-content .gs-item a:hover span.navigator {
+  background-position: 0 -40px;
+}
+.gs-flyout-content .gs-item a:hover span.navigator.active {
+  background-position: 0 -20px;
+}
+.gs-filter-active .gs-item.gs-filter {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  /* 
+        a {
+            font-weight: normal;
+            color: #ccc;
+        }
+        */
+
+}
+/* indent each level by 10px.          */
+
+.gs-level-0 {
+  margin: 5px 0 2px 0;
+}
+.gs-level-0 a,
+.gs-level-0 .gs-item-link {
+  padding-left: 0;
+}
+.gs-level-0 span.title {
+  border-bottom: 1px solid #cccccc;
+}
+.gs-level-0 span.navigator {
+  left: 0;
+}
+.gs-level-1 a,
+.gs-level-1 .gs-item-link {
+  padding-left: 10px;
+  white-space: nowrap;
+}
+.gs-level-1 span.navigator {
+  left: 10px;
+}
+.gs-level-2 a,
+.gs-level-2 .gs-item-link {
+  padding-left: 20px;
+  white-space: nowrap;
+}
+.gs-level-2 span.navigator {
+  left: 20px;
+}
+.gs-level-3 a,
+.gs-level-3 .gs-item-link {
+  padding-left: 30px;
+  white-space: nowrap;
+}
+.gs-level-3 span.navigator {
+  left: 30px;
+}
+.gs-level-4 a,
+.gs-level-4 .gs-item-link {
+  padding-left: 40px;
+  white-space: nowrap;
+}
+.gs-level-4 span.navigator {
+  left: 40px;
+}
+.gs-flyout-overview {
+  padding: 10px;
+}
+.gs-flyout-overview .gs-level-0 a {
+  float: left;
+  display: block;
+  width: 230px;
+  overflow: hidden;
+}
+.gs-flyout-overview .gs-level-0 a,
+.gs-flyout-overview .gs-level-0 a:visited,
+.gs-flyout-overview .gs-level-0 a:link {
+  font-weight: bold;
+}
+.gs-flyout-details {
+  padding: 10px;
+}
+.gs-flyout-details .gs-loading {
+  background: url(loadingcirclests16.gif) no-repeat 0 0;
+  margin: 5px 0 0 5px;
+  padding: 1px 0 0 23px;
+  font-size: 12px;
+  color: #cccccc;
+  display: block;
+  height: 20px;
+}
+.gs-flyout-details .gs-column {
+  float: left;
+  list-style: none;
+  padding: 0;
+  width: 240px;
+  margin: 0 10px 0 0;
+}
+.gs-flyout-details .gs-column-withtitle {
+  padding-top: 50px;
+}
+.gs-flyout-details .gs-column-last {
+  margin-right: 0;
+}
+.gs-flyout-details .gs-column-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 10px;
+}
+.gs-flyout-details .gs-column-0 .gs-column-title {
+  margin-left: 0;
+}
+.gs-flyout-details .gs-column-border {
+  margin-left: 10px!important;
+  padding-left: 10px!important;
+  border-left: 1px solid #a3a3a3;
+  min-height: 370px;
+}
+.gs-flyout-details .gs-item {
+  overflow: hidden;
+  font-size: 12px;
+  padding: 1px;
+  background: white;
+  line-height: 16px;
+}
+.gs-flyout-details .gs-item a,
+.gs-flyout-details .gs-item a:link {
+  display: block;
+  position: relative;
+  color: #666666;
+  text-decoration: none;
+}
+.gs-flyout-details .gs-item a:visited {
+  color: #666666;
+  text-decoration: none;
+}
+.gs-flyout-details .gs-item a:hover {
+  color: #5a5a5a;
+  text-decoration: none;
+}
+.gs-flyout-details .gs-item a:active {
+  color: #5a5a5a;
+  text-decoration: none;
+}
+.gs-flyout-details .gs-item span.title {
+  display: block;
+}
+.gs-flyout-details .gs-first {
+  margin-top: 0!important;
+}
+.gs-flyout-details .gs-level-0 a {
+  float: left;
+  display: block;
+  width: 230px;
+  overflow: hidden;
+  font-weight: bold;
+}
+.gs-flyout-details .gs-level-0 a:visited,
+.gs-flyout-details .gs-level-0 a:link {
+  font-weight: bold;
+}
+.gs-flyout-details .gs-level-1 {
+  margin: 5px 0 2px 0;
+  padding-left: 0;
+  line-height: 13px;
+}
+.gs-flyout-details .gs-level-1 a {
+  float: left;
+  display: block;
+  width: 230px;
+  overflow: hidden;
+  white-space: normal;
+  margin: 5px 0 2px 0;
+  font-weight: bold;
+}
+.gs-flyout-details .gs-level-1 a:visited,
+.gs-flyout-details .gs-level-1 a:link {
+  font-weight: bold;
+}
+.gs-flyout-details .gs-level-1 span.title {
+  border-bottom: 1px solid #cccccc;
+}
+.gs-flyout-details .gs-level-2 {
+  white-space: nowrap;
+}
+.gs-flyout-details .gs-level-2 a {
+  padding-left: 10px;
+  line-height: 13px;
+}
+.gs-flyout-details .gs-level-3 {
+  white-space: nowrap;
+}
+.gs-flyout-details .gs-level-3 a {
+  padding-left: 20px;
+  line-height: 13px;
+}
+.gs-flyout-details .gs-level-4 {
+  white-space: nowrap;
+}
+.gs-flyout-details .gs-level-4 a {
+  padding-left: 30px;
+  line-height: 13px;
+}
+.gs-flyout-details .gs-level-0.gs-column-title span.title {
+  color: #5a5a5a;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 0;
+  padding: 0 0 5px 0;
+  line-height: 110%;
+  font-size: 12px;
+}
+.gs-flyout-details .gs-level-0.gs-column-title span.description {
+  display: block;
+  margin: 0;
+  padding: 0 0 5px 0;
+  font-weight: normal;
+  color: #666666;
+  line-height: 110%;
+  font-size: 11px;
+}
+.gs-flyout-details .gs-backlink {
+  background: #a3a3a3;
+  font-size: 12px;
+  padding: 3px;
+  margin: -10px 0 10px 0;
+}
+.gs-flyout-details .gs-backlink a {
+  background: transparent url("/Style Library/GridSoft/GridWorks/Flyout/images/bg_backlink.png") no-repeat 0 -48px;
+  padding-left: 13px;
+  color: white;
+  display: block;
+}
+/* reserve 20px if  navigator is enabled. */
+
+.gs-flyout-hasnavigators .gs-level-0 a,
+.gs-flyout-hasnavigators .gs-level-0 .gs-item-link {
+  padding-left: 20px!important;
+}
+.gs-flyout-hasnavigators .gs-level-0 span.navigator {
+  left: 0!important;
+}
+.gs-flyout-hasnavigators .gs-level-1 a,
+.gs-flyout-hasnavigators .gs-level-1 .gs-item-link {
+  padding-left: 30px!important;
+  white-space: nowrap;
+}
+.gs-flyout-hasnavigators .gs-level-1 span.navigator {
+  left: 10px!important;
+}
+.gs-flyout-hasnavigators .gs-level-2 a,
+.gs-flyout-hasnavigators .gs-level-2 .gs-item-link {
+  padding-left: 40px!important;
+}
+.gs-flyout-hasnavigators .gs-level-2 span.navigator {
+  left: 20px!important;
+}
+.gs-flyout-hasnavigators .gs-level-3 a,
+.gs-flyout-hasnavigators .gs-level-3 .gs-item-link {
+  padding-left: 50px!important;
+}
+.gs-flyout-hasnavigators .gs-level-3 span.navigator {
+  left: 30px!important;
+}
+.gs-flyout-hasnavigators .gs-level-4 a,
+.gs-flyout-hasnavigators .gs-level-4 .gs-item-link {
+  padding-left: 60px!important;
+}
+.gs-flyout-hasnavigators .gs-level-4 span.navigator {
+  left: 40px!important;
+}
+/* KSSGMIG-9: quick access is hidden by default. */
+
+.gs-flyout-quickaccess {
+  display: none;
+  visibility: hidden;
+  position: absolute;
+  left: 280px;
+  top: 10px;
+  background: transparent url("/Style Library/GridSoft/GridWorks/Flyout/images/star.png") 0 2px no-repeat;
+  padding: 0 0 0 20px;
+}
+.gs-flyout-quickaccess span {
+  display: none;
+  -moz-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+.gs-flyout-quickaccess span.normal {
+  color: #a3a3a3 !important;
+  display: block;
+  cursor: pointer;
+}
+.gs-flyout-quickaccess span.success {
+  color: #b3c95a;
+  display: none;
+}
+.gs-flyout-quickaccess span.error {
+  color: #ff3d0d;
+  display: none;
+}
+
+/* -------- ~assets/Navigator/module.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/00_Core.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/10_Branding.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/20_Navigation.less -------- */
+/* -------- @15…/GridWorksConfig/Branding/30_QuickSearch.less -------- */
+/* the search-center link. */
+/* -------- @15…/GridWorksConfig/Branding/40_Publishing.less -------- */
+/* -------- /GridWorksConfig/Branding/90_Psych.less -------- */
+/*f1f1f1;*/
+.gs-navigator-container {
+  position: relative;
+}
+.gs-navigator-trigger {
+  position: relative;
+  background-color: #f1f1f1;
+  background-image: url("/Style Library/GridSoft/KSSG/Navigation/images/bg_navigator.png");
+  background-repeat: no-repeat;
+  background-position: 4px -36px;
+  border: 1px solid #cccccc;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: #666666;
+  margin: 0 0 25px -5px;
+  padding: 0 0 0 23px;
+  width: 190px;
+  height: 24px;
+  cursor: pointer;
+  z-index: 16;
+}
+.gs-navigator-trigger:hover {
+  background-position: 4px -16px;
+}
+/* ------------------------------ navigator -------------------------------------*/
+
+.gs-navigator {
+  position: absolute;
+  top: 24px;
+  left: -1px;
+  width: 1060px;
+  height: 500px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cccccc !important;
+  background: white;
+  z-index: 20;
+}
+.gs-navigator-content {
+  width: 1040px;
+  height: 480px;
+  padding: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  /* reset styles from gs-navigator-trigger */
+  text-transform: none;
+  font-weight: normal;
+  cursor: default;
+  /* ------------------------------------------ columns format ------------------------------------------ */
+
+  /* gs-item */
+
+  /* gs-item : if there is no url, it is rendered grey and bold */
+
+  /* level 0 */
+
+  /* level 1 */
+
+  /* level 2 */
+
+  /* level 3 */
+
+  /* level 4 */
+
+}
+.gs-navigator-content .gs-empty {
+  margin: 5px 0 0 5px;
+  padding: 1px 0 0 0;
+  font-size: 12px;
+  color: #888888;
+  display: block;
+  height: 20px;
+}
+.gs-navigator-content .gs-loading {
+  background: url(loadingcirclests16.gif) no-repeat 0 0;
+  margin: 5px 0 0 5px;
+  padding: 1px 0 0 23px;
+  font-size: 12px;
+  color: #cccccc;
+  display: block;
+  height: 20px;
+}
+.gs-navigator-content .gs-column {
+  float: left;
+  overflow: hidden;
+  list-style: none;
+  padding: 10px 0 0 0;
+  margin: 0 20px 0 0;
+  width: 230px;
+  /*height: 100%;*/
+  position: relative;
+}
+.gs-navigator-content .gs-column-last {
+  margin-right: 0;
+}
+.gs-navigator-content .gs-column-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 10px;
+}
+.gs-navigator-content .gs-column-withtitle {
+  padding-top: 50px;
+}
+.gs-navigator-content .gs-column-0 .gs-column-title {
+  margin-left: 0;
+}
+.gs-navigator-content .gs-column-border {
+  margin-left: 10px!important;
+  padding-left: 10px!important;
+  border-left: 1px solid #a3a3a3;
+  min-height: 390px;
+}
+.gs-navigator-content .gs-item {
+  overflow: hidden;
+  font-size: 12px;
+  padding: 1px;
+  background: white;
+  line-height: 16px;
+}
+.gs-navigator-content .gs-item a {
+  display: block;
+  position: relative;
+}
+.gs-navigator-content a,
+.gs-navigator-content a:link {
+  color: #666666 !important;
+  text-decoration: none;
+}
+.gs-navigator-content a:visited {
+  color: #666666 !important;
+  text-decoration: none;
+}
+.gs-navigator-content a:hover {
+  color: #5a5a5a !important;
+  text-decoration: none;
+}
+.gs-navigator-content a:active {
+  color: #5a5a5a !important;
+  text-decoration: none;
+}
+.gs-navigator-content div.gs-item-link {
+  color: #868686;
+  font-weight: bold;
+}
+.gs-navigator-content div.gs-item-link span.title {
+  border-bottom: 1px solid #cccccc !important;
+}
+.gs-navigator-content .gs-item span.title {
+  display: block;
+}
+.gs-navigator-content .gs-first {
+  margin-top: 0!important;
+}
+.gs-navigator-content .gs-level-0 a,
+.gs-navigator-content .gs-level-0 a:visited,
+.gs-navigator-content .gs-level-0 a:link {
+  font-weight: bold;
+}
+.gs-navigator-content .gs-level-0 a {
+  float: left;
+  display: block;
+  width: 230px;
+  overflow: hidden;
+}
+.gs-navigator-content .gs-level-1 {
+  white-space: normal;
+  margin: 5px 0 2px 0;
+}
+.gs-navigator-content .gs-level-1 a {
+  float: left;
+  display: block;
+  width: 230px;
+  overflow: hidden;
+  padding-left: 0;
+  line-height: 13px;
+}
+.gs-navigator-content .gs-level-1 a,
+.gs-navigator-content .gs-level-1 a:visited,
+.gs-navigator-content .gs-level-1 a:link {
+  font-weight: bold;
+}
+.gs-navigator-content .gs-level-1 span.title {
+  border-bottom: 1px solid #43517b;
+}
+.gs-navigator-content .gs-level-2 {
+  white-space: nowrap;
+}
+.gs-navigator-content .gs-level-2 a {
+  padding-left: 10px;
+  line-height: 13px;
+}
+.gs-navigator-content .gs-level-3 {
+  white-space: nowrap;
+}
+.gs-navigator-content .gs-level-3 a {
+  padding-left: 20px;
+  line-height: 13px;
+}
+.gs-navigator-content .gs-level-4 {
+  white-space: nowrap;
+}
+.gs-navigator-content .gs-level-4 a {
+  padding-left: 30px;
+  line-height: 13px;
+}
+.gs-navigator-content .gs-level-0.gs-column-title span.title {
+  color: #5a5a5a;
+  text-transform: uppercase;
+  margin-top: 0;
+  padding: 0 0 5px 0;
+  line-height: 110%;
+  font-size: 12px;
+  border: none!important;
+  /* override other important declaration */
+
+}
+.gs-navigator-content .gs-level-0.gs-column-title span.description {
+  display: block;
+  margin: 0;
+  padding: 0 0 5px 0;
+  font-weight: normal;
+  color: #666666;
+  line-height: 110%;
+  font-size: 11px;
+}
