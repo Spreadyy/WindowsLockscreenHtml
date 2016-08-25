@@ -89,6 +89,26 @@ $(document).ready(function () {
 		writeUserData();
 		return false;
 	});
+
+	$('.eye').click(function (e) {
+		e.preventDefault();
+	});
+
+	$('.eye').mousedown(function (e) {
+		$('.pw').attr('type', 'text');
+		$('.eye').mouseup(function (e) {
+			$('.pw').attr('type', 'password');
+		});
+		$('.eye').mousemove(function (e) {
+			$('.pw').attr('type', 'text');
+			e.stopPropagation();
+		});
+		$('body').mousemove(function (e) {
+			$('.pw').attr('type', 'password');
+		});
+		
+		return false;
+	});
 });
 
 

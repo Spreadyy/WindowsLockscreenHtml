@@ -8,9 +8,9 @@
         html {
             font-family: 'Segoe UI Light', Arial, sans-serif;
         }
-        .start, .name, .username {
+        .start, .name, .username, .secondWindow {
             background: rgb(24, 0, 82);
-            width: 200px;
+            width: 300px;
             padding: 20px;
             margin:0 auto;
             color: white;
@@ -18,6 +18,15 @@
             display: inherit;
             box-sizing: border-box;
             margin-bottom: 10px;
+            font-family: 'Segoe UI Light', Arial, sans-serif;
+            font-size: 16px;
+        }
+        .secondWindow input {
+            float: right;
+        }
+        .start {
+            font-size: 30px;
+            font-weight: light;
         }
         iframe {
             display: none;
@@ -37,9 +46,11 @@
     <div>
         <input class="name" type="text" placeholder="Name" value="König Aaron HCARE-KPD..."></input>
         <input class="username" type="text" placeholder="Username" value="SGHCARE\aaron.koenig"></input>
+        <label class="secondWindow">Zweites Fenster<input type="checkbox" checked></input></label>
         <button class="start">Start</button>
     </div>
     <iframe src="pdspage/PDS.html" sandbox="allow-top-navigation allow-scripts allow-same-origin"></iframe>
+
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="scripts/screenfull.min.js"></script>
     <script src="scripts/index.js"></script>

@@ -128,13 +128,11 @@ body > div {
 	border-top: 6px white solid;
 	border-bottom: 6px white solid;
 }
-.underlay .top .content .signin input:focus:not(:placeholder-shown)::after {
-	content: "adsf";
-}
 .underlay .top .content .signin input::-webkit-input-placeholder {
 	color: rgba(0, 0, 0, 0.8);
 }
-.underlay .top .content .signin input:placeholder-shown {
+.underlay .top .content .signin input:placeholder-shown,
+.underlay .top .content .signin input[type="text"] {
 	font-size: 16px;
 	letter-spacing: 0;
 }
@@ -147,14 +145,27 @@ body > div {
 	width: 28px;
 	height: 28px;
 	top: 2px;
-	right: 2px;
-	background: rgb(70, 23, 181);
 	padding: 0;
 	border: 0;
 	outline: none;
 }
-.underlay .top .content .signin button:hover {
+.underlay .top .content .signin button.send {
+	right: 2px;
+	background: rgb(70, 23, 181);
+}
+.underlay .top .content .signin button.send:hover {
 	background: rgba(70, 23, 181, 0.9);
+}
+.underlay .top .content .signin button.eye {
+	right: 34px;
+	background: transparent;
+	opacity: 0;
+}
+.underlay .top .content .signin button.eye:hover {
+	background: rgb(222, 222, 222);
+}
+.underlay .top .content .signin input:focus:not(:placeholder-shown) + button.send + button.eye {
+	opacity: 1;
 }
 .underlay .symbols {
 	flex: 0 0 auto;
